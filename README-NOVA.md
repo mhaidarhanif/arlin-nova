@@ -1,6 +1,6 @@
 # Telescope Nova
 
-**Nova** is a top-secret, highly unstable experimental branch of Telescope with a really cool name. 
+**Nova** is a top-secret, highly unstable experimental branch of Telescope with a really cool name. <https://github.com/TelescopeJS/Telescope/tree/nova>
 
 ## Table Of Contents
 

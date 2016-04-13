@@ -1,0 +1,61 @@
+{
+  "public": {
+    "title": "Arlin",
+    "tagline":"Tanya arah lalu lintas",
+
+    "logoUrl": "/images/arlin.png",
+    "logoHeight": "80",
+    "logoWidth": "250",
+    "faviconUrl": "/images/arlin.ico",
+
+    "requirePostsApproval":false,
+    "requireViewInvite":false,
+    "requirePostInvite":false,
+    "enableNewsletter":false,
+    "autoSubscribe":false,
+    "emailNotifications":false,
+    "postInterval": 20,
+    "RSSLinksPointTo": "link",
+    "commentInterval": 20,
+    "maxPostsPerDay": 25,
+    "startInvitesCount": 5,
+    "postsPerPage": 10,
+
+    "language": "id",
+
+    "twitterAccount": "temanarlin",
+    "facebookPage": "http://facebook.com/temanarlin",
+
+    "googleAnalyticsId": "123foo",
+    "embedlyKey": "123foo"
+  },
+
+  "defaultEmail": "admin@arlin.link",
+  "mailUrl": "smtp://arlin-postmaster.mailgun.org:arlin@smtp.mailgun.org:587/",
+  "scoreUpdateInterval": "30",
+
+  "mailChimpAPIKey": "123foo",
+  "mailChimpListId": "123foo",
+
+  "categories": [
+    {
+      "name": "Jakarta",
+      "description": "Kota Jakarta",
+      "order": 1,
+      "slug": "jakarta"
+    },
+    {
+      "name": "Bogor",
+      "description": "Kota Bogor",
+      "order": 2,
+      "slug": "bogor"
+    },
+    {
+      "name": "Depok",
+      "description": "Kota Depok",
+      "order": 3,
+      "slug": "depok"
+    }
+  ]
+
+}

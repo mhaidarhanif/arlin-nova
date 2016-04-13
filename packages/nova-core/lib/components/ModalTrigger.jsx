@@ -57,7 +57,7 @@ class ModalTrigger extends Component {
         {triggerComponent}
         <Modal bsSize={this.props.size} show={this.state.modalIsOpen} onHide={this.closeModal}>
           <Modal.Header closeButton>
-            <Modal.Title>Modal heading</Modal.Title>
+            <Modal.Title></Modal.Title>
           </Modal.Header>
           <Modal.Body>
             <ContextPasser currentUser={this.context.currentUser} closeCallback={this.props.closeCallback}>

@@ -9,7 +9,7 @@ import SmartContainers from "meteor/utilities:react-list-container";
 const ListContainer = SmartContainers.ListContainer;
 
 const Header = ({currentUser}) => {
-  
+
   ({Logo, CategoriesList, NewPostButton, UserMenu, AccountsMenu, HeadTags} = Telescope.components);
 
   const logoUrl = Telescope.settings.get("logoUrl");
@@ -25,11 +25,11 @@ const Header = ({currentUser}) => {
 
         <div className="logo">
           <Logo logoUrl={logoUrl} siteTitle={siteTitle} />
-          {tagline ? <h2 className="tagline">{tagline}</h2> : "" }
+          {/*{tagline ? <h2 className="tagline">{tagline}</h2> : "" }*/}
         </div>
-        
+
         <div className="nav">
-          
+
           <div className="nav-user">
             {currentUser ? <UserMenu user={currentUser}/> : <AccountsMenu/>}
           </div>

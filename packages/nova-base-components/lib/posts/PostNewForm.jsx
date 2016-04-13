@@ -13,9 +13,9 @@ const PostNewForm = (props, context) => {
   return (
     <CanCreatePost>
       <div className="new-post-form">
-        <h3 className="modal-form-title">New Post</h3>
-        <NovaForm 
-          collection={Posts} 
+        <h3 className="modal-form-title">Pertanyaan Baru</h3>
+        <NovaForm
+          collection={Posts}
           currentUser={context.currentUser}
           methodName="posts.new"
           successCallback={(post)=>{

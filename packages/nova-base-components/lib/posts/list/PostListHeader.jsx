@@ -12,7 +12,7 @@ const PostListHeader = () => {
       <div className="post-list-categories">
         <ListContainer collection={Categories} limit={0} resultsPropName="categories" component={CategoriesList}/>
       </div>
-      <PostViews />
+      {/*<PostViews />*/}
       <SearchForm/>
     </div>
   )

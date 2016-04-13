@@ -11,19 +11,17 @@ const Layout = props => {
     <div className="wrapper" id="wrapper">
 
       <Header {...props}/>
-    
+
       <div className="main">
 
         <FlashContainer component={FlashMessages}/>
 
-        <NewsletterForm />
-
         {props.children}
 
       </div>
-    
+
       <Footer {...props}/>
-    
+
     </div>
   )
 }

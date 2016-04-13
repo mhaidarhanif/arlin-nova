@@ -56,6 +56,8 @@ Comments.schema = new SimpleSchema({
     type: Date,
     optional: true,
     publish: true,
+    insertableIf: Users.is.memberOrAdmin,
+    editableIf: Users.is.ownerOrAdmin
   },
   /**
     The comment body (Markdown)
@@ -119,7 +121,7 @@ Comments.schema = new SimpleSchema({
     }
   },
   /**
-    Whether the comment is deleted. Delete comments' content doesn't appear on the site. 
+    Whether the comment is deleted. Delete comments' content doesn't appear on the site.
   */
   isDeleted: {
     type: Boolean,
